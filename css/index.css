@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: grey;
+    background-image: url(/front-hotel/src/hotel\ transilvania.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pai {
+
+    background-color: white;
+    width: 210px;
+    height: 630px;
+
+}
+
+.mensagem {
+
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 25%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+
+}
+
+.reserva {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 88%;
+
+}
+
+.reserva input {
+    padding: 5px;
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+
+.introducao {
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.introducao p {
+    letter-spacing: 6px;
+}
+
+.opcoes {
+    margin-top: 70%;
+    padding-left: 15px;
+
+}
+
+.opcoes ul a {
+    text-decoration: none;
+    color: purple;
+    font-size: 17px;
+    font-family: sans-serif;
+
+
+}
+
+.opcoes ul li {
+    margin-bottom: 20px;
+}
+
+.opcoes ul li {
+    list-style: none;
+}
+
+.linha {
+    height: 225px;
+    position: absolute;
+    background-color: purple;
+    padding: 0.1px;
+    margin-top: 8%;
+    margin-left: 8px;
+
+}
+
+.localidade {
+    margin-top: 100%;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: gray;
+}
